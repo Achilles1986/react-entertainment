@@ -1,28 +1,28 @@
-# Foobar
+# Entertainment web app
 
-Foobar is a Python library for dealing with word pluralization.
+This is a web app with movies preview.It enables viewers to see latest movies,their casts,different genres etc.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the Node package manager.
 
 ```bash
-pip install foobar
+git clone https://github.com/Mugambi645/react-entertainment
+cd react-entertainment
+npm install
+npm start
 ```
 
 ## Usage
 
-```python
-import foobar
+```
+# Api
+Get api here <https://www.themoviedb.org/>
+Create .env file in root directory
 
-# returns 'words'
-foobar.pluralize('word')
+# .env
+REACT_APP_API_KEY = <Api Key>
 
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
@@ -31,4 +31,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
